@@ -441,20 +441,15 @@ fieldset legend {
 
 .scroll_fset {
   height: 200px;
+  margin-bottom: 2.5em;
 }
 .scroll_fset fieldset {
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+  padding-bottom: 2em;
 }
-/* HACK to display <legend> properly */
-  .scroll_fset {
-    margin-bottom: 2.5em;
-  }
-  .scroll_fset fieldset {
-    padding-bottom: 2em;
-  }
-/* end HACK */
+
 .scroll_fset div.scroller {
   overflow: auto;
   width: 100%;
@@ -491,7 +486,7 @@ fieldset legend {
 * {
    -webkit-tap-highlight-color: rgba(0,0,0,0);
    -webkit-text-size-adjust: none;
-   select: none;
+   -webkit-user-select: none;
 }
 
 .span rect.AddedAnnotation {
